@@ -1,0 +1,28 @@
+# Large files and caches
+checkpoints/
+*.pkl
+*.pickle
+__pycache__/
+*.pyc
+
+# Model cache
+hf_cache/
+.cache/
+
+# Results that can be regenerated (keep if you want)
+# results/
+
+# Logs
+logs/
+*.log
+slurm-*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
